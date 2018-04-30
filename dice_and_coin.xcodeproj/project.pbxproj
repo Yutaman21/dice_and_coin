@@ -8,20 +8,26 @@
 
 /* Begin PBXBuildFile section */
 		5568C8CC20974A0900191464 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5568C8CB20974A0900191464 /* AppDelegate.swift */; };
-		5568C8CE20974A0900191464 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5568C8CD20974A0900191464 /* ViewController.swift */; };
-		5568C8D120974A0900191464 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5568C8CF20974A0900191464 /* Main.storyboard */; };
 		5568C8D320974A0900191464 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5568C8D220974A0900191464 /* Assets.xcassets */; };
-		5568C8D620974A0900191464 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5568C8D420974A0900191464 /* LaunchScreen.storyboard */; };
+		5568C8DE20974BD700191464 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5568C8DD20974BD700191464 /* Main.storyboard */; };
+		5568C8E020974BF000191464 /* ViewController1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5568C8DF20974BF000191464 /* ViewController1.swift */; };
+		5568C8E220974BFE00191464 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5568C8E120974BFE00191464 /* ViewController.swift */; };
+		5568C8E420974C0500191464 /* ViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5568C8E320974C0400191464 /* ViewController2.swift */; };
+		5568C8E620974C1800191464 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5568C8E520974C1800191464 /* LaunchScreen.storyboard */; };
+		5568C8E820974EFE00191464 /* chachacha.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5568C8E720974EFD00191464 /* chachacha.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		5568C8C820974A0900191464 /* dice_and_coin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = dice_and_coin.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5568C8CB20974A0900191464 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		5568C8CD20974A0900191464 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		5568C8D020974A0900191464 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5568C8D220974A0900191464 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		5568C8D520974A0900191464 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5568C8D720974A0900191464 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5568C8DD20974BD700191464 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		5568C8DF20974BF000191464 /* ViewController1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController1.swift; sourceTree = "<group>"; };
+		5568C8E120974BFE00191464 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = ../../../../iOS_Othello_Devil_vs_Angel/iOS_Othello_Devil_vs_Angel/ViewController.swift; sourceTree = "<group>"; };
+		5568C8E320974C0400191464 /* ViewController2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController2.swift; sourceTree = "<group>"; };
+		5568C8E520974C1800191464 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5568C8E720974EFD00191464 /* chachacha.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = chachacha.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,10 +61,13 @@
 			isa = PBXGroup;
 			children = (
 				5568C8CB20974A0900191464 /* AppDelegate.swift */,
-				5568C8CD20974A0900191464 /* ViewController.swift */,
-				5568C8CF20974A0900191464 /* Main.storyboard */,
+				5568C8E120974BFE00191464 /* ViewController.swift */,
+				5568C8DF20974BF000191464 /* ViewController1.swift */,
+				5568C8E320974C0400191464 /* ViewController2.swift */,
+				5568C8DD20974BD700191464 /* Main.storyboard */,
+				5568C8E520974C1800191464 /* LaunchScreen.storyboard */,
 				5568C8D220974A0900191464 /* Assets.xcassets */,
-				5568C8D420974A0900191464 /* LaunchScreen.storyboard */,
+				5568C8E720974EFD00191464 /* chachacha.mp3 */,
 				5568C8D720974A0900191464 /* Info.plist */,
 			);
 			path = dice_and_coin;
@@ -123,9 +132,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5568C8D620974A0900191464 /* LaunchScreen.storyboard in Resources */,
+				5568C8E620974C1800191464 /* LaunchScreen.storyboard in Resources */,
+				5568C8DE20974BD700191464 /* Main.storyboard in Resources */,
 				5568C8D320974A0900191464 /* Assets.xcassets in Resources */,
-				5568C8D120974A0900191464 /* Main.storyboard in Resources */,
+				5568C8E820974EFE00191464 /* chachacha.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -136,31 +146,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5568C8CE20974A0900191464 /* ViewController.swift in Sources */,
+				5568C8E220974BFE00191464 /* ViewController.swift in Sources */,
+				5568C8E420974C0500191464 /* ViewController2.swift in Sources */,
+				5568C8E020974BF000191464 /* ViewController1.swift in Sources */,
 				5568C8CC20974A0900191464 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		5568C8CF20974A0900191464 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				5568C8D020974A0900191464 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		5568C8D420974A0900191464 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				5568C8D520974A0900191464 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		5568C8D820974A0900191464 /* Debug */ = {
